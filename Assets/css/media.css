@@ -1,0 +1,1157 @@
+@media screen and (max-width: 575px) {
+  .container {
+    max-width: 100%;
+  }
+
+  .col-12 {
+    width: 100%;
+  }
+
+  .col-11 {
+    width: 91.66%;
+  }
+
+  .col-10 {
+    width: 83.33%;
+  }
+
+  .col-9 {
+    width: 75%;
+  }
+
+  .col-8 {
+    width: 66.66%;
+  }
+
+  .col-7 {
+    width: 58.33%;
+  }
+
+  .col-6 {
+    width: 50%;
+  }
+
+  .col-5 {
+    width: 41.66%;
+  }
+
+  .col-4 {
+    width: 33.33%;
+  }
+
+  .col-3 {
+    width: 25%;
+  }
+
+  .col-2 {
+    width: 16.66;
+  }
+
+  .col-1 {
+    width: 8.33%;
+  }
+
+  .about-gap-img {
+    margin-top: 3rem;
+    width: 4.9343rem;
+    height: 4.347rem;
+  }
+
+  .pack-1 h2 {
+    color: #000;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2rem;
+  }
+
+  section {
+    margin-top: 6rem;
+  }
+
+  .about-assets {
+    color: #000;
+    text-align: center;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 6rem;
+  }
+
+  .rate {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .pack-btn-0 {
+    border-radius: 3rem;
+    margin-top: 2rem;
+    padding-left: 2rem;
+    margin-left: 1.3rem;
+  }
+
+  #client .client-container {
+    margin-left: calc((100% - 33rem) / 2);
+  }
+
+
+  .profile-data p {
+    color: #858585;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2.8rem;
+    margin-top: 2rem;
+    width: 18.2rem;
+  }
+
+  
+
+#client h2 {
+    color: #020202;
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 3rem;
+    margin-bottom: 1.8rem;
+}
+
+
+.slide-btns {
+  color: #000;
+  display: flex;
+  justify-content: center;
+}
+
+
+.main-title-1 {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 4rem;
+}    
+
+#subs .sub-title {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.4rem;
+  flex-shrink: 0;
+  width: 27rem;
+  padding-top: 0rem;
+}
+
+#subs input {
+  height: 5.2228rem;
+  flex-shrink: 0;
+  border-radius: 3.45rem;
+  background: #fff;
+  padding-left: 1rem;
+  width: 35rem;
+}
+
+
+.subs {
+  margin-left: -14rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  color: #dfdfdf;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.4rem;
+  padding-top: 1.5rem;
+}
+
+.sub-title {
+  width: 30.6rem;
+  flex-shrink: 0;
+  color: #878787;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 3.6rem;
+  margin: 0 auto;
+  margin-top: 2.8rem;
+}
+
+.resp-class {
+  margin-top: 4rem;
+  margin-left: 14rem;
+}
+
+.pack-1 p {
+  color: #878787;
+  font-family: Poppins;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 3rem;
+  width: 29.7rem;
+  margin-top: 1rem;}
+
+  .pack-1 {
+    display: flex;
+    margin-top: 1rem;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;}
+
+    .footing {
+      margin-top: 2rem;
+    }
+
+    .contact-btn {
+      color: #fff;
+      font-family: Poppins;
+      font-size: 3rem;
+      font-style: normal;
+      font-weight: 500;
+      margin-top: 2rem;
+      padding: 0rem 10rem 1rem 13rem;}
+
+}
+
+@media screen and (min-width: 576px) {
+  .container {
+    min-width: 540px;
+  }
+
+  .col-sm-12 {
+    width: 100%;
+  }
+
+  .col-sm-11 {
+    width: 91.66%;
+  }
+
+  .col-sm-10 {
+    width: 83.33%;
+  }
+
+  .col-sm-9 {
+    width: 75%;
+  }
+
+  .col-sm-8 {
+    width: 66.66%;
+  }
+
+  .col-sm-7 {
+    width: 58.33%;
+  }
+
+  .col-sm-6 {
+    width: 50%;
+  }
+
+  .col-sm-5 {
+    width: 41.66%;
+  }
+
+  .col-sm-4 {
+    width: 33.33%;
+  }
+
+  .col-sm-3 {
+    width: 25%;
+  }
+
+  .col-sm-2 {
+    width: 16.66;
+  }
+
+  .col-sm-1 {
+    width: 8.33%;
+  }
+
+  .about-gap-img {
+    margin-top: 3rem;
+    width: 4.9343rem;
+    height: 4.347rem;
+  }
+
+  .pack-1 h2 {
+    color: #000;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 3rem;
+  }
+
+  section {
+    margin-top: 8rem;
+  }
+
+  .about-assets {
+    color: #000;
+    text-align: center;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 6rem;
+  }
+
+  .rate {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .pack-btn-0 {
+    border-radius: 3rem;
+    margin-top: 4rem;
+    padding-left: 2rem;
+    margin-left: 1.3rem;
+  }
+  #client .client-container {
+    margin-left: calc((100% - 60rem) / 2);
+  }
+
+  
+  #client h2 {
+    color: #020202;
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 3rem;
+    margin-bottom: 1.8rem;
+}
+
+.slide-btns {
+  color: #000;
+  display: flex;
+  justify-content: center;
+}
+
+.main-title-1 {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 5rem;
+}
+
+#subs .sub-title {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.4rem;
+  flex-shrink: 0;
+  width: 46rem;
+  padding-top: 0rem;
+}
+
+#subs input {
+  height: 6.2228rem;
+  flex-shrink: 0;
+  border-radius: 3.45rem;
+  background: #fff;
+  padding-left: 3rem;
+}
+
+
+.subs {
+  margin-left: -17rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  color: #dfdfdf;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.4rem;
+  padding-top: 1.2rem;
+}
+
+.h3-about {
+  color: #000;
+  font-family: Poppins;
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 7rem;}
+
+
+  .sub-title {
+    width: 46.6rem;
+    flex-shrink: 0;
+    color: #878787;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 3.6rem;
+    margin: 0 auto;
+    margin-top: 2.8rem;
+}
+
+.resp-class {
+  margin-top: 4rem;
+  margin-left: 25rem;
+}
+
+.pack-1 p {
+  color: #878787;
+  font-family: Poppins;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 3rem;
+  width: 29.7rem;
+  margin-top: 1rem;}
+
+  .pack-1 {
+    display: flex;
+    margin-top: 3rem;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;}
+
+
+    
+.footing {
+  margin-top: 2rem;
+}
+/* 
+.contact-btn {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 2rem;
+  padding: 0rem 11rem 1rem 13rem;
+} */
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    min-width: 720px;
+  }
+
+  .col-md-12 {
+    width: 100%;
+  }
+
+  .col-md-11 {
+    width: 91.66%;
+  }
+
+  .col-md-10 {
+    width: 83.33%;
+  }
+
+  .col-md-9 {
+    width: 75%;
+  }
+
+  .col-md-8 {
+    width: 66.66%;
+  }
+
+  .col-md-7 {
+    width: 58.33%;
+  }
+
+  .col-md-6 {
+    width: 50%;
+  }
+
+  .col-md-5 {
+    width: 41.66%;
+  }
+
+  .col-md-4 {
+    width: 33.33%;
+  }
+
+  .col-md-3 {
+    width: 25%;
+  }
+
+  .col-md-2 {
+    width: 16.66;
+  }
+
+  .col-md-1 {
+    width: 8.33%;
+  }
+
+  .about-gap-img {
+    margin-top: 3rem;
+    width: 4.9343rem;
+    height: 4.347rem;
+  }
+
+  .pack-1 h2 {
+    color: #000;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 4rem;
+  }
+
+  section {
+    margin-top: 10rem;
+  }
+
+  .about-assets {
+    color: #000;
+    text-align: center;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 7rem;
+  }
+
+  .rate {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+  }
+
+  #client .client-container {
+    margin-left: calc((100% - 75rem) / 2);
+  }
+
+  .profile-data p {
+    color: #858585;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2.8rem;
+    margin-top: 2rem;
+    width: 23.2rem;
+  }
+
+  #client h2 {
+    color: #020202;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 3rem;
+    margin-bottom: 1.8rem;}
+
+    .slide-btns {
+      color: #000;
+      display: flex;
+      justify-content: center;
+    }
+
+    .main-title-1 {
+      color: #fff;
+      text-align: center;
+      font-family: Poppins;
+      font-size: 5rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 6rem;
+  }    
+
+ #subs .sub-title {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.4rem;
+    flex-shrink: 0;
+    padding-top: 0rem;
+}
+
+
+#subs input {
+  height: 7.2228rem;
+  width: 51rem;
+  flex-shrink: 0;
+  border-radius: 3.45rem;
+  background: #fff;
+  padding-left: 4rem;
+}
+
+
+.subs {
+  margin-left: -17rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  color: #dfdfdf;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 3.4rem;
+  padding-top: 1.2rem;
+}
+
+.h3-about {
+  color: #000;
+  font-family: Poppins;
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 7rem;}
+
+  .sub-title {
+    width: 75.6rem;
+    flex-shrink: 0;
+    color: #878787;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 3.6rem;
+    margin: 0 auto;
+    margin-top: 2.8rem;
+}
+
+.sub-title {
+  width: 55.6rem;
+  flex-shrink: 0;
+  color: #878787;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 3.6rem;
+  margin: 0 auto;
+  margin-top: 2.8rem;
+}
+
+.resp-class {
+  margin-top: 4rem;
+  margin-left: 25rem;
+}
+
+
+.pack-1 p {
+  color: #878787;
+  font-family: Poppins;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 3rem;
+  width: 47.7rem;
+  margin-top: 1rem;}
+
+  .pack-1 {
+    display: flex;
+    margin-top: 3rem;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;}
+
+    
+.footing {
+  margin-top: 2rem;
+}
+
+.contact-box {
+  display: flex;
+  justify-content: center;
+}
+
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    min-width: 960px;
+  }
+
+  .col-lg-12 {
+    width: 100%;
+  }
+
+  .col-lg-11 {
+    width: 91.66%;
+  }
+
+  .col-lg-10 {
+    width: 83.33%;
+  }
+
+  .col-lg-9 {
+    width: 75%;
+  }
+
+  .col-lg-8 {
+    width: 66.66%;
+  }
+
+  .col-lg-7 {
+    width: 58.33%;
+  }
+
+  .col-lg-6 {
+    width: 50%;
+  }
+
+  .col-lg-5 {
+    width: 41.66%;
+  }
+
+  .col-lg-4 {
+    width: 33.33%;
+  }
+
+  .col-lg-3 {
+    width: 25%;
+  }
+
+  .col-lg-2 {
+    width: 16.66;
+  }
+
+  .col-lg-1 {
+    width: 8.33%;
+  }
+
+  .pack-1 p {
+    color: #878787;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 3rem;
+    width: 57.7rem;
+    margin-top: 1rem;
+  }
+
+  section {
+    margin-top: 12rem;
+  }
+
+  .pack-btn-0 {
+    border-radius: 3rem;
+    margin-top: 3rem;
+    padding-left: 2rem;
+    margin-left: 1.3rem;
+  }
+
+  .rate {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+  }
+
+  #client .client-container {
+    margin-left: calc((100% - 90rem) / 2);
+  }
+
+  .profile-data p {
+    color: #858585;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2.8rem;
+    margin-top: 2rem;
+    width: 17.2rem;
+  }
+
+  #client h2 {
+    color: #020202;
+    font-size: 6rem;
+    font-weight: 600;
+    line-height: 7rem;
+    margin-bottom: 1.8rem;
+}
+
+.slide-btns {
+  color: #000;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.main-title-1 {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 7rem;
+}
+
+#subs .sub-title {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 3.4rem;
+  flex-shrink: 0;
+  padding-top: 2rem;
+}
+
+.h3-about {
+  color: #000;
+  font-family: Poppins;
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 7rem;
+  margin-top: 2rem;
+}
+.sub-title {
+  width: 75.6rem;
+  flex-shrink: 0;
+  color: #878787;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 3.6rem;
+  margin: 0 auto;
+  margin-top: 2.8rem;
+}
+
+.resp-class {
+  margin-top: 0;
+  margin-left: 0;
+}
+
+.footing {
+  margin-top: 0;
+}
+
+.contact-box {
+  margin-top: 10rem;
+}
+
+input {
+  height: 6rem;
+  flex-shrink: 0;
+  border-radius: 0.5rem;
+  border: 1px solid #c4c4c4;
+  margin-top: 2rem;
+  color: #343434;
+  font-family: Poppins;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 300;
+  padding-left: 2rem;
+  width: 65rem;
+  margin-left: 2rem;
+}
+
+textarea {
+  height: 16.6rem;
+  flex-shrink: 0;
+  margin-top: 3rem;
+  width: 65rem;
+  margin-left: 2rem;}
+
+  .contact-btn {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 2rem;
+    padding: 0rem 21rem 1rem 23rem;
+}
+
+.contact-box {
+  display: flex;
+  justify-content: center;
+}
+
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    min-width: 1140px;
+  }
+
+  .col-xl-12 {
+    width: 100%;
+  }
+
+  .col-xl-11 {
+    width: 91.66%;
+  }
+
+  .col-xl-10 {
+    width: 83.33%;
+  }
+
+  .col-xl-9 {
+    width: 75%;
+  }
+
+  .col-xl-8 {
+    width: 66.66%;
+  }
+
+  .col-xl-7 {
+    width: 58.33%;
+  }
+
+  .col-xl-6 {
+    width: 50%;
+  }
+
+  .col-xl-5 {
+    width: 41.66%;
+  }
+
+  .col-xl-4 {
+    width: 33.33%;
+  }
+
+  .col-xl-3 {
+    width: 25%;
+  }
+
+  .col-xl-2 {
+    width: 16.66;
+  }
+
+  .col-xl-1 {
+    width: 8.33%;
+  }
+
+  section {
+    margin-top: 13rem;
+  }
+
+  .pack-btn-0 {
+    border-radius: 3rem;
+    margin-top: 1rem;
+    padding-left: 2rem;
+    margin-left: 1.3rem;
+  }
+
+  #client .client-container {
+    margin-left: calc((100% - 114rem) / 2);
+  }
+  .profile-data p {
+    color: #858585;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2.8rem;
+    margin-top: 2rem;
+    width: 24rem;
+  }
+
+  .slide-btns {
+    color: #000;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.h3-about {
+  color: #000;
+  font-family: Poppins;
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 7rem;
+  margin-top: 2rem;
+}
+
+#subs input {
+  height: 7.2228rem;
+  width: 58rem;
+  flex-shrink: 0;
+  border-radius: 3.45rem;
+  background: #fff;
+  padding-left: 4rem;
+}
+
+
+input {
+  height: 6rem;
+  flex-shrink: 0;
+  border-radius: 0.5rem;
+  border: 1px solid #c4c4c4;
+  margin-top: 2rem;
+  color: #343434;
+  font-family: Poppins;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 300;
+  padding-left: 2rem;
+  width: 45rem;
+  margin-left: 2rem;
+}
+
+textarea {
+  height: 16.6rem;
+  flex-shrink: 0;
+  margin-top: 3rem;
+  width: 45rem;
+  margin-left: 2rem;}
+
+  .contact-btn {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 2rem;
+    padding: 0rem 11rem 1rem 13rem;
+}
+
+}
+
+@media screen and (min-width: 1400px) {
+  .container {
+    min-width: 1320px;
+  }
+
+  .col-xxl-12 {
+    width: 100%;
+  }
+
+  .col-xxl-11 {
+    width: 91.66%;
+  }
+
+  .col-xxl-10 {
+    width: 83.33%;
+  }
+
+  .col-xxl-9 {
+    width: 75%;
+  }
+
+  .col-xxl-8 {
+    width: 66.66%;
+  }
+
+  .col-xxl-7 {
+    width: 58.33%;
+  }
+
+  .col-xxl-6 {
+    width: 50%;
+  }
+
+  .col-xxl-5 {
+    width: 41.66%;
+  }
+
+  .col-xxl-4 {
+    width: 33.33%;
+  }
+
+  .col-xxl-3 {
+    width: 25%;
+  }
+
+  .col-xxl-2 {
+    width: 16.66;
+  }
+
+  .col-xxl-1 {
+    width: 8.33%;
+  }
+
+  .about-gap-img {
+    width: 7.9343rem;
+    height: 6.347rem;
+    margin-top: 0;
+  }
+
+  .pack-1 h2 {
+    color: #000;
+    font-size: 7rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 7rem;
+  }
+
+  .pack-1 p {
+    color: #878787;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 3rem;
+    width: 57.7rem;
+    margin-top: 1rem;
+  }
+
+  section {
+    margin-top: 15rem;
+  }
+
+  #client .client-container {
+    margin-left: calc((100% - 132rem) / 2);
+  }
+
+  .profile-data p {
+    color: #858585;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2.8rem;
+    margin-top: 2rem;
+    width: 29.2rem;
+  }
+
+  .h3-about {
+    color: #000;
+    font-family: Poppins;
+    font-size: 3.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 7rem;
+    margin-top: 2rem;
+  }
+
+  input {
+    height: 6rem;
+    flex-shrink: 0;
+    border-radius: 0.5rem;
+    border: 1px solid #c4c4c4;
+    margin-top: 2rem;
+    color: #343434;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 300;
+    padding-left: 2rem;
+    width: 45rem;
+    margin-left: 2rem;
+  }
+  
+  textarea {
+    height: 16.6rem;
+    flex-shrink: 0;
+    margin-top: 3rem;
+    width: 45rem;
+    margin-left: 2rem;}
+  
+    .contact-btn {
+      color: #fff;
+      font-family: Poppins;
+      font-size: 3rem;
+      font-style: normal;
+      font-weight: 500;
+      margin-top: 2rem;
+      padding: 0rem 11rem 1rem 13rem;
+  }
+
+}
