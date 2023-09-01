@@ -128,51 +128,6 @@ section {
   margin-top: 15rem;
 }
 
-/* ----------header------------------ */
-
-header .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  width: 15.3rem;
-}
-
-header {
-  width: 100%;
-  position: absolute;
-  top: 3rem;
-  left: 0;
-  right: 0;
-}
-
-header nav>ul {
-  display: flex;
-}
-
-header nav>ul>li>a {
-  padding: 3.3rem;
-  color: #fff;
-  font-size: 1.4rem;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-}
-
-header nav {
-  margin-left: auto;
-}
-
-header .search {
-  padding-left: 2rem;
-  font-size: 1.3rem;
-  font-weight: 600;
-  color: #ffffff;
-}
-
-/* ----------header------------------ */
 
 /* --------------hero section--------------- */
 
@@ -836,7 +791,7 @@ a:hover {
 }
 
 .profile-data {
-  padding: 10rem 5.2rem 5.2rem;
+  padding: 10rem 4.2rem 5.2rem;
   border-radius: 1rem;
   box-shadow: 0px 20px 60px 0px rgba(0, 0, 0, 0.1);
 }
@@ -1225,3 +1180,243 @@ footer a {
 }
 
 /* --------------footer----------------- */
+
+
+/* ------------------header------------------ */
+
+header {
+    position: absolute;
+    top: 3%;
+    left: 2%;
+}
+
+.resp-nav-i {
+  margin: 22px 10px 0 30px ;
+  font-size: 17px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+    max-width: 90%;
+    margin: 0 auto;
+}
+header img {
+  height:4.5rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header .container > nav > ul {
+    display: flex;
+}
+
+nav > ul > li {
+    position: relative;
+}
+
+header a {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+header .container > nav > ul > li > a {
+    padding: 20px;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+header .container > nav > ul a:hover {
+    color: white;
+    transition: all 0.3s;
+}
+
+.submenu {
+    position: absolute;
+    top: 57px;
+    left: 0;
+    width: 110px;
+    display: none;
+}
+
+.submenu a {
+    display: inline-block;
+    padding: 16px;
+    font-size: 16px;
+    color: white;
+    width:100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+
+.subsubmenu {
+    position: absolute;
+    left: 110px;
+    top: 0;
+    width: 100%;
+    display: none;
+}
+
+.subsubmenu a {
+    display: inline-block;
+    padding: 16px;
+    font-size: 16px;
+    color: white;
+    background: rgba(0, 0, 0, 0.12);
+    width:100%;
+}
+
+.submenu li {
+    position: relative;
+}
+
+nav ul li:hover .submenu, .submenu li:hover .subsubmenu {
+    display: inline-block;
+}
+
+nav > ul > li > a:hover i ,.submenu > li:hover a > i{
+    transform: rotate(90deg);
+}
+
+.fa-ellipsis, .fa-circle-xmark {
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+
+    nav > ul {
+        position: absolute;
+        height: 100vh;
+        width: 40%;
+        background-color:rgba(0, 0, 0, 0.5);
+        top: 0;
+        right: -60%;
+        transition: all 0.5s;
+    }
+
+    header > .container > nav > ul {
+        display: block;
+    }
+
+    .submenu {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .subsubmenu {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    header > .container > nav > ul > li a {
+        width: 100%;
+    }
+
+    .submenu a {
+        padding-left: 50px;
+    }
+    
+    .subsubmenu a {
+        padding-left: 90px;
+    }
+
+    header {
+        height: 50px;
+    }
+
+    .showHide {
+        right: -13rem;
+    }
+
+    nav > i {
+        font-size: 30px;
+        margin-top: 8px;
+    }
+
+    #menu > i {
+        font-size: 30px;
+        float: right;
+        position: relative;
+        z-index: 999;
+        padding: 10px 10px;
+    }   
+
+    .fa-ellipsis, .fa-circle-xmark {
+        display: block;
+        color: white;
+    }   
+
+    .fa-ellipsis {
+      margin: 1rem -9rem 1rem 6rem;
+        }
+}
+
+@media screen and (max-width: 700px) {
+  
+  .showHide {
+    right: -12rem;
+}
+}
+
+@media screen and (max-width: 600px ) {
+  
+  .showHide {
+    right: -4rem;
+}
+}
+
+@media screen and (max-width: 600px){
+.fa-ellipsis {
+    margin: 1rem -2rem 1rem 6rem;}
+}
+
+@media screen and (max-width: 500px){
+  .fa-ellipsis {
+      margin: 1rem -2rem 1rem 24rem;}
+  }
+  
+
+@media screen and (max-width: 500px) {
+ 
+  nav > ul {
+    position: absolute;
+    height: 100vh;
+    width: 90%;
+    background-color:rgba(0, 0, 0, 0.5);
+    top: 0;
+    right: -60%;
+    transition: all 0.5s;
+}
+
+}
+
+@media screen and (max-width: 400px) {
+  .fa-ellipsis {
+    margin: 0rem -2rem 1rem 12rem;
+  }
+
+  nav > ul {
+    position: absolute;
+    height: 100vh;
+    width: 60%;
+    background-color:rgba(0, 0, 0, 0.5);
+    top: 0;
+    right: -60%;
+    transition: all 0.5s;
+}
+
+.showHide {
+  right:;
+}
+
+  }

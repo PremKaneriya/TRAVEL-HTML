@@ -22,32 +22,62 @@
   </head>
 
   <body>
-    <header>
-      <div class="container">
-        <img src="/Assets/image/airbnb.png" class="logo" alt="" />
-
-        <nav>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
+  <header>
+        <div class="container">
+          <img src="/Assets/image/airbnb.png" alt="">
+          <nav>
+            <i class="fa-solid fa-ellipsis" onclick="toggleMenu()" ></i>
+            <ul id="menu">
+                <i class="fa-solid fa-circle-xmark" onclick="toggleMenu()"></i>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li>
+                    <a href="#">Packages <i class="fa-solid fa-chevron-right"></i></a>
+                    <ul class="submenu">
+                        <li><a href="#">Electronic</a></li>
+                        <li>
+                            <a href="#">Fashion <i class="fa-solid fa-chevron-right"></i></a>
+                            <ul class="subsubmenu">
+                                <li><a href="#">Men's</a></li>
+                                <li><a href="#">Women's</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Books</a></li>
+                        <li><a href="#">Toys</a></li>
+                    </ul>
+                </li>
+                <li>
+                  <a href="#">Destination <i class="fa-solid fa-chevron-right"></i></a>
+                  <ul class="submenu">
+                      <li><a href="#">Dubai</a></li>
+                      <li>
+                          <a href="#">India <i class="fa-solid fa-chevron-right"></i></a>
+                          <ul class="subsubmenu">
+                              <li><a href="#">Gujarat</a></li>
+                              <li><a href="#">Surat</a></li>
+                          </ul>
+                      </li>
+                      <li><a href="#">Thailand</a></li>
+                      <li><a href="#">Indonesia</a></li>
+                  </ul>
+              </li>
+              <li>
+                <a href="#">Blog <i class="fa-solid fa-chevron-right"></i></a>
+                <ul class="submenu">
+                    <li><a href="#">Morning</a></li>
+                    <li>
+                        <a href="#">Evening</a>
+                     </li>
+                    </li>
+            </ul>
             <li>
-              <a href="#">Packages <i class="fa-solid fa-chevron-down"></i></a>
-            </li>
-            <li>
-              <a href="#"
-                >Destination <i class="fa-solid fa-chevron-down"></i
-              ></a>
-            </li>
-            <li>
-              <a href="#">Blog <i class="fa-solid fa-chevron-down"></i></a>
-            </li>
-            <li><a href="#">Contact</a></li>
-          </ul>
+              <a href="#">Contact</a>
+             </li> 
+             <i class="fa-solid fa-magnifying-glass resp-nav-i" style="color: #ffffff;"></i>
         </nav>
-
-        <i class="fa-solid fa-magnifying-glass search"></i>
-      </div>
+    </div>
     </header>
+
 
     <main>
       <section class="hero">
@@ -701,7 +731,7 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
-
+        
         <div class="container">
           <div class="row contact-box">
             <div class="col-xl-5 col-lg-8 col-md-8 col-sm-12">
@@ -956,5 +986,17 @@
         },
       });
     </script>
+
+<script>
+
+  function toggleMenu() {
+  
+  document.getElementById("menu").classList.toggle('showHide')
+  
+  }
+  
+  </script>
+
+
   </body>
 </html>
