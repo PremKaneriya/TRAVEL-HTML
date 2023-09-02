@@ -1235,6 +1235,7 @@ a {
 header .container > nav > ul a:hover {
     color: white;
     transition: all 0.3s;
+    background-color: #020202;
 }
 
 .submenu {
@@ -1251,8 +1252,8 @@ header .container > nav > ul a:hover {
     font-size: 16px;
     color: white;
     width:100%;
-    background: rgba(0, 0, 0, 0.5);
-}
+  background-color:rgb(24, 24, 73);
+  }
 
 
 .subsubmenu {
@@ -1268,7 +1269,7 @@ header .container > nav > ul a:hover {
     padding: 16px;
     font-size: 16px;
     color: white;
-    background: rgba(0, 0, 0, 0.12);
+    background-color: rgb(32, 48, 227);
     width:100%;
 }
 
@@ -1288,13 +1289,15 @@ nav > ul > li > a:hover i ,.submenu > li:hover a > i{
     display: none;
 }
 
+
+
 @media screen and (max-width: 900px) {
 
     nav > ul {
         position: absolute;
         height: 100vh;
         width: 40%;
-        background-color:rgba(0, 0, 0, 0.5);
+        background-color: blue;
         top: 0;
         right: -65%;
         transition: all 0.5s;
@@ -1335,7 +1338,7 @@ nav > ul > li > a:hover i ,.submenu > li:hover a > i{
     }
 
     .showHide {
-        right: -15rem;
+        right: -13rem;
     }
 
     nav > i {
@@ -1365,23 +1368,24 @@ nav > ul > li > a:hover i ,.submenu > li:hover a > i{
   .showHide {
     right: -5rem;
   }
+
 }
 
 @media screen and (max-width: 700px) {
   
   .showHide {
-    right: -13rem;
+    right: -5rem;
 }
 
 .fa-ellipsis {
-  margin: 1rem -8rem 1rem 6rem;
+  margin: 1rem -5rem 1rem 6rem;
 }
 
 nav > ul {
   position: absolute;
   height: 100vh;
   width: 34%;
-  background-color:rgba(0, 0, 0, 0.5);
+  background-color: blue;
   top: 0;
   right: -71%;
   transition: all 0.5s;
@@ -1414,7 +1418,7 @@ nav > ul {
     position: absolute;
     height: 100vh;
     width: 34%;
-    background-color:rgba(0, 0, 0, 0.5);
+    background-color:blue;
     top: 0;
     right: -23%;
     transition: all 0.5s;
@@ -1435,7 +1439,7 @@ nav > ul {
     position: absolute;
     height: 100vh;
     width: 50%;
-    background-color:rgba(0, 0, 0, 0.5);
+    background-color: blue;
     top: 0;
     right: -31%;
     transition: all 0.5s;
